@@ -1,0 +1,47 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-style: 'Arial',sans-serif;
+    background-color: aliceblue;
+}  
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: brown;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.user-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+ h1 {
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+ }
